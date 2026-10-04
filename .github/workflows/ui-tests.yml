@@ -1,0 +1,24 @@
+name: Selenium UI tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  ui:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      - run: google-chrome --version
+      - run: dotnet restore tests/UiTests/UiTests.csproj
+      - run: dotnet test tests/UiTests/UiTests.csproj --no-restore --logger "trx;LogFileName=ui-tests.trx" --results-directory TestResults
+        env:
+          HEADLESS: 'true'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ui-test-evidence
+          path: |
+            TestResults/
+            **/artifacts/

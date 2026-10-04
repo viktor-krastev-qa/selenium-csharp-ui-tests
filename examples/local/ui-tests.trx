@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="50bd18c6-8435-4b19-ad63-dce674450ae5" name="10@DESKTOP-1H891TR 2026-10-04 17:54:53" runUser="DESKTOP-1H891TR\10" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-04T17:54:53.4310865+03:00" queuing="2026-10-04T17:54:53.4310870+03:00" start="2026-10-04T17:54:49.9547889+03:00" finish="2026-10-04T17:55:33.7951019+03:00" />
+  <TestSettings name="default" id="9debfaeb-488c-49d5-a6d5-ca120d45dd65">
+    <Deployment runDeploymentRoot="10_DESKTOP-1H891TR_2026-10-04_17_54_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7c5110ea-6530-40c3-8662-fc79c5d8932b" testId="f6c62d0b-228e-fba7-94c5-b2009c75285f" testName="SearchWithNoMatch_ShowsEmptyState" computerName="DESKTOP-1H891TR" duration="00:00:02.0634980" startTime="2026-10-04T17:55:22.4124645+03:00" endTime="2026-10-04T17:55:24.4759621+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c5110ea-6530-40c3-8662-fc79c5d8932b" />
+    <UnitTestResult executionId="d54ad23f-b50a-4989-9e3b-7776c7c51cf5" testId="26207043-fd01-129a-4921-fd806217e25a" testName="TitleBoundary_IsAccepted(1)" computerName="DESKTOP-1H891TR" duration="00:00:01.8402610" startTime="2026-10-04T17:55:26.4180486+03:00" endTime="2026-10-04T17:55:28.2583098+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d54ad23f-b50a-4989-9e3b-7776c7c51cf5" />
+    <UnitTestResult executionId="66c89c43-58dd-42da-a38a-f3aa367af730" testId="b6b83364-9b8a-3de5-0483-288b8ad839d5" testName="TitleOverMaximum_IsRejected" computerName="DESKTOP-1H891TR" duration="00:00:01.8983130" startTime="2026-10-04T17:55:30.0997881+03:00" endTime="2026-10-04T17:55:31.9981007+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66c89c43-58dd-42da-a38a-f3aa367af730" />
+    <UnitTestResult executionId="3c56bd7d-a03d-4b9c-a547-d19b764eaa0a" testId="966ca7a2-27da-6e26-2c9f-59d6829d311a" testName="NewSession_HasEmptyBoard" computerName="DESKTOP-1H891TR" duration="00:00:01.7360730" startTime="2026-10-04T17:55:16.6218353+03:00" endTime="2026-10-04T17:55:18.3579086+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c56bd7d-a03d-4b9c-a547-d19b764eaa0a" />
+    <UnitTestResult executionId="95c006e5-844b-4b20-b8e2-f6fd6c398d0c" testId="3cde852e-88d2-f8ea-9404-7b9006df1d5d" testName="Search_IsCaseInsensitiveAndPartial" computerName="DESKTOP-1H891TR" duration="00:00:02.1288070" startTime="2026-10-04T17:55:20.2835690+03:00" endTime="2026-10-04T17:55:22.4123757+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95c006e5-844b-4b20-b8e2-f6fd6c398d0c" />
+    <UnitTestResult executionId="eecd250f-166c-424a-ad0e-ebf0ba6b5349" testId="884e96cd-0918-9e6b-a456-02f25670afec" testName="Title_IsTrimmed" computerName="DESKTOP-1H891TR" duration="00:00:01.9417290" startTime="2026-10-04T17:55:24.4761046+03:00" endTime="2026-10-04T17:55:26.4178332+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eecd250f-166c-424a-ad0e-ebf0ba6b5349" />
+    <UnitTestResult executionId="de18ac6c-f68a-4d48-b965-079c1a3e4cfc" testId="54c91e5e-2e9f-2763-b20e-730cb2b88fd1" testName="MissingCredentials_ShowValidation(&quot;&quot;,&quot;&quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.7531500" startTime="2026-10-04T17:55:11.3663440+03:00" endTime="2026-10-04T17:55:13.1194939+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de18ac6c-f68a-4d48-b965-079c1a3e4cfc" />
+    <UnitTestResult executionId="d082f3c7-8587-45d9-8b0e-dc29fcf1e45c" testId="edaefc6a-b8ac-915d-2e10-b87d7051b921" testName="Refresh_PreservesTaskAndSession" computerName="DESKTOP-1H891TR" duration="00:00:01.9255120" startTime="2026-10-04T17:55:18.3579618+03:00" endTime="2026-10-04T17:55:20.2834736+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d082f3c7-8587-45d9-8b0e-dc29fcf1e45c" />
+    <UnitTestResult executionId="d338f8fa-cc8c-425d-b18e-a2e6c7df1bb3" testId="c3293233-e429-b5d5-2540-a6f41d337e62" testName="InvalidCredentials_KeepUserLoggedOut(&quot;qa_user&quot;,&quot;wrong_password&quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.7178350" startTime="2026-10-04T17:55:06.1159610+03:00" endTime="2026-10-04T17:55:07.8337959+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d338f8fa-cc8c-425d-b18e-a2e6c7df1bb3" />
+    <UnitTestResult executionId="18fae7a5-71df-450f-95e6-4bf68e1b79bc" testId="109e9d87-8cf2-b703-d242-2ac55118d9a6" testName="Logout_ReturnsToLogin" computerName="DESKTOP-1H891TR" duration="00:00:01.9443270" startTime="2026-10-04T17:55:09.4219167+03:00" endTime="2026-10-04T17:55:11.3662438+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18fae7a5-71df-450f-95e6-4bf68e1b79bc" />
+    <UnitTestResult executionId="8da3308f-10ae-4c86-b08f-8f19b6549ab3" testId="37d325e5-d2d3-a793-724a-40437ad13107" testName="LoginPage_HasExpectedTitle" computerName="DESKTOP-1H891TR" duration="00:00:01.5878239" startTime="2026-10-04T17:55:07.8339814+03:00" endTime="2026-10-04T17:55:09.4218034+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8da3308f-10ae-4c86-b08f-8f19b6549ab3" />
+    <UnitTestResult executionId="cbbcdc8d-cd75-43ee-9edc-6245db9ddef0" testId="d116a7ff-bb3b-08ab-6d66-5362b4a552bb" testName="TitleBoundary_IsAccepted(70)" computerName="DESKTOP-1H891TR" duration="00:00:01.8413580" startTime="2026-10-04T17:55:28.2583538+03:00" endTime="2026-10-04T17:55:30.0997114+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbbcdc8d-cd75-43ee-9edc-6245db9ddef0" />
+    <UnitTestResult executionId="6e21d96d-9a45-4e22-a0d1-bdf91a6d600f" testId="0e00112e-67fb-b6e7-9524-e33ee13416f4" testName="BlankTitle_IsRejected(&quot;&quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.7374640" startTime="2026-10-04T17:54:50.6314010+03:00" endTime="2026-10-04T17:54:52.3687993+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e21d96d-9a45-4e22-a0d1-bdf91a6d600f" />
+    <UnitTestResult executionId="ef7ce440-9e31-4b45-8032-dc2d3a3c6495" testId="f8f5c590-d771-485c-6ace-7a2e7e3aa3d3" testName="MissingCredentials_ShowValidation(&quot;&quot;,&quot;QaDemo123!&quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.7187550" startTime="2026-10-04T17:55:14.9029264+03:00" endTime="2026-10-04T17:55:16.6216830+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef7ce440-9e31-4b45-8032-dc2d3a3c6495" />
+    <UnitTestResult executionId="217d2340-b0f1-400e-a652-a2d5edd8b216" testId="7cb42121-ae62-6c1a-35e2-d0abe5d3e63c" testName="CreateTask_ShowsTitle" computerName="DESKTOP-1H891TR" duration="00:00:01.8229170" startTime="2026-10-04T17:54:56.5225476+03:00" endTime="2026-10-04T17:54:58.3454644+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="217d2340-b0f1-400e-a652-a2d5edd8b216" />
+    <UnitTestResult executionId="7d4cca12-d1b9-4c84-a3ec-11278898a2fb" testId="5ea8930f-5dfb-a1d3-a4e9-91afb0a0243f" testName="ClearingSearch_RestoresTasks" computerName="DESKTOP-1H891TR" duration="00:00:02.1776680" startTime="2026-10-04T17:54:54.3447923+03:00" endTime="2026-10-04T17:54:56.5224587+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d4cca12-d1b9-4c84-a3ec-11278898a2fb" />
+    <UnitTestResult executionId="70df240e-b34f-42c6-a444-5d5b4c1f3251" testId="d3fdc43e-2ab0-fc99-950a-5e4d44c21ce6" testName="ValidLogin_ShowsBoardAndWelcome" computerName="DESKTOP-1H891TR" duration="00:00:01.7292950" startTime="2026-10-04T17:55:31.9981340+03:00" endTime="2026-10-04T17:55:33.7274290+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70df240e-b34f-42c6-a444-5d5b4c1f3251" />
+    <UnitTestResult executionId="31bd3985-bd70-4416-8a35-9a32b94507be" testId="0f353a6f-abd8-6c5c-b960-2ec733a47d01" testName="BlankTitle_IsRejected(&quot;   &quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.9733830" startTime="2026-10-04T17:54:52.3700726+03:00" endTime="2026-10-04T17:54:54.3434559+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31bd3985-bd70-4416-8a35-9a32b94507be" />
+    <UnitTestResult executionId="be67ddf5-d482-4f79-b689-6c2e01d8c31c" testId="c7c006c1-a737-a9c7-2077-66b876e396b1" testName="InvalidCredentials_KeepUserLoggedOut(&quot;wrong_user&quot;,&quot;QaDemo123!&quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.8200250" startTime="2026-10-04T17:55:04.2958809+03:00" endTime="2026-10-04T17:55:06.1159056+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be67ddf5-d482-4f79-b689-6c2e01d8c31c" />
+    <UnitTestResult executionId="6909328b-c432-4689-aa1e-53fa8db2c2d4" testId="c42ff834-77e0-7b6e-6329-f6a459d69166" testName="HtmlLikeTitle_IsRenderedAsText" computerName="DESKTOP-1H891TR" duration="00:00:01.8947450" startTime="2026-10-04T17:55:02.4007135+03:00" endTime="2026-10-04T17:55:04.2954575+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6909328b-c432-4689-aa1e-53fa8db2c2d4" />
+    <UnitTestResult executionId="85ddb1e8-e207-4445-a63d-d36c088ca671" testId="7ac5b1bf-f1d6-ef11-0191-bb46e47a548f" testName="Delete_RemovesOnlySelectedTask" computerName="DESKTOP-1H891TR" duration="00:00:02.0524540" startTime="2026-10-04T17:54:58.3455171+03:00" endTime="2026-10-04T17:55:00.3979699+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85ddb1e8-e207-4445-a63d-d36c088ca671" />
+    <UnitTestResult executionId="130ce0e5-e7a3-4b38-bd95-3e7619595a12" testId="8c66890f-3fce-c6b2-66ef-c01008baa753" testName="DeleteLastTask_ShowsEmptyState" computerName="DESKTOP-1H891TR" duration="00:00:02.0023240" startTime="2026-10-04T17:55:00.3981155+03:00" endTime="2026-10-04T17:55:02.4004386+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="130ce0e5-e7a3-4b38-bd95-3e7619595a12" />
+    <UnitTestResult executionId="355f18bf-207e-495f-be80-3ec613f917ba" testId="f102bd87-cb49-c547-b713-43d1ad01dcb5" testName="MissingCredentials_ShowValidation(&quot;qa_user&quot;,&quot;&quot;)" computerName="DESKTOP-1H891TR" duration="00:00:01.7832730" startTime="2026-10-04T17:55:13.1195418+03:00" endTime="2026-10-04T17:55:14.9028134+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="355f18bf-207e-495f-be80-3ec613f917ba" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="InvalidCredentials_KeepUserLoggedOut(&quot;qa_user&quot;,&quot;wrong_password&quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="c3293233-e429-b5d5-2540-a6f41d337e62">
+      <Execution id="d338f8fa-cc8c-425d-b18e-a2e6c7df1bb3" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="InvalidCredentials_KeepUserLoggedOut(&quot;qa_user&quot;,&quot;wrong_password&quot;)" />
+    </UnitTest>
+    <UnitTest name="MissingCredentials_ShowValidation(&quot;qa_user&quot;,&quot;&quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="f102bd87-cb49-c547-b713-43d1ad01dcb5">
+      <Execution id="355f18bf-207e-495f-be80-3ec613f917ba" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="MissingCredentials_ShowValidation(&quot;qa_user&quot;,&quot;&quot;)" />
+    </UnitTest>
+    <UnitTest name="MissingCredentials_ShowValidation(&quot;&quot;,&quot;QaDemo123!&quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="f8f5c590-d771-485c-6ace-7a2e7e3aa3d3">
+      <Execution id="ef7ce440-9e31-4b45-8032-dc2d3a3c6495" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="MissingCredentials_ShowValidation(&quot;&quot;,&quot;QaDemo123!&quot;)" />
+    </UnitTest>
+    <UnitTest name="TitleBoundary_IsAccepted(1)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="26207043-fd01-129a-4921-fd806217e25a">
+      <Execution id="d54ad23f-b50a-4989-9e3b-7776c7c51cf5" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="TitleBoundary_IsAccepted(1)" />
+    </UnitTest>
+    <UnitTest name="HtmlLikeTitle_IsRenderedAsText" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="c42ff834-77e0-7b6e-6329-f6a459d69166">
+      <Execution id="6909328b-c432-4689-aa1e-53fa8db2c2d4" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="HtmlLikeTitle_IsRenderedAsText" />
+    </UnitTest>
+    <UnitTest name="MissingCredentials_ShowValidation(&quot;&quot;,&quot;&quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="54c91e5e-2e9f-2763-b20e-730cb2b88fd1">
+      <Execution id="de18ac6c-f68a-4d48-b965-079c1a3e4cfc" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="MissingCredentials_ShowValidation(&quot;&quot;,&quot;&quot;)" />
+    </UnitTest>
+    <UnitTest name="TitleBoundary_IsAccepted(70)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="d116a7ff-bb3b-08ab-6d66-5362b4a552bb">
+      <Execution id="cbbcdc8d-cd75-43ee-9edc-6245db9ddef0" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="TitleBoundary_IsAccepted(70)" />
+    </UnitTest>
+    <UnitTest name="BlankTitle_IsRejected(&quot;   &quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="0f353a6f-abd8-6c5c-b960-2ec733a47d01">
+      <Execution id="31bd3985-bd70-4416-8a35-9a32b94507be" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="BlankTitle_IsRejected(&quot;   &quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginPage_HasExpectedTitle" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="37d325e5-d2d3-a793-724a-40437ad13107">
+      <Execution id="8da3308f-10ae-4c86-b08f-8f19b6549ab3" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="LoginPage_HasExpectedTitle" />
+    </UnitTest>
+    <UnitTest name="Refresh_PreservesTaskAndSession" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="edaefc6a-b8ac-915d-2e10-b87d7051b921">
+      <Execution id="d082f3c7-8587-45d9-8b0e-dc29fcf1e45c" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="Refresh_PreservesTaskAndSession" />
+    </UnitTest>
+    <UnitTest name="DeleteLastTask_ShowsEmptyState" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="8c66890f-3fce-c6b2-66ef-c01008baa753">
+      <Execution id="130ce0e5-e7a3-4b38-bd95-3e7619595a12" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="DeleteLastTask_ShowsEmptyState" />
+    </UnitTest>
+    <UnitTest name="Search_IsCaseInsensitiveAndPartial" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="3cde852e-88d2-f8ea-9404-7b9006df1d5d">
+      <Execution id="95c006e5-844b-4b20-b8e2-f6fd6c398d0c" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="Search_IsCaseInsensitiveAndPartial" />
+    </UnitTest>
+    <UnitTest name="InvalidCredentials_KeepUserLoggedOut(&quot;wrong_user&quot;,&quot;QaDemo123!&quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="c7c006c1-a737-a9c7-2077-66b876e396b1">
+      <Execution id="be67ddf5-d482-4f79-b689-6c2e01d8c31c" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="InvalidCredentials_KeepUserLoggedOut(&quot;wrong_user&quot;,&quot;QaDemo123!&quot;)" />
+    </UnitTest>
+    <UnitTest name="Delete_RemovesOnlySelectedTask" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="7ac5b1bf-f1d6-ef11-0191-bb46e47a548f">
+      <Execution id="85ddb1e8-e207-4445-a63d-d36c088ca671" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="Delete_RemovesOnlySelectedTask" />
+    </UnitTest>
+    <UnitTest name="BlankTitle_IsRejected(&quot;&quot;)" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="0e00112e-67fb-b6e7-9524-e33ee13416f4">
+      <Execution id="6e21d96d-9a45-4e22-a0d1-bdf91a6d600f" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="BlankTitle_IsRejected(&quot;&quot;)" />
+    </UnitTest>
+    <UnitTest name="Title_IsTrimmed" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="884e96cd-0918-9e6b-a456-02f25670afec">
+      <Execution id="eecd250f-166c-424a-ad0e-ebf0ba6b5349" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="Title_IsTrimmed" />
+    </UnitTest>
+    <UnitTest name="Logout_ReturnsToLogin" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="109e9d87-8cf2-b703-d242-2ac55118d9a6">
+      <Execution id="18fae7a5-71df-450f-95e6-4bf68e1b79bc" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="Logout_ReturnsToLogin" />
+    </UnitTest>
+    <UnitTest name="ClearingSearch_RestoresTasks" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="5ea8930f-5dfb-a1d3-a4e9-91afb0a0243f">
+      <Execution id="7d4cca12-d1b9-4c84-a3ec-11278898a2fb" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="ClearingSearch_RestoresTasks" />
+    </UnitTest>
+    <UnitTest name="CreateTask_ShowsTitle" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="7cb42121-ae62-6c1a-35e2-d0abe5d3e63c">
+      <Execution id="217d2340-b0f1-400e-a652-a2d5edd8b216" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="CreateTask_ShowsTitle" />
+    </UnitTest>
+    <UnitTest name="NewSession_HasEmptyBoard" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="966ca7a2-27da-6e26-2c9f-59d6829d311a">
+      <Execution id="3c56bd7d-a03d-4b9c-a547-d19b764eaa0a" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="NewSession_HasEmptyBoard" />
+    </UnitTest>
+    <UnitTest name="SearchWithNoMatch_ShowsEmptyState" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="f6c62d0b-228e-fba7-94c5-b2009c75285f">
+      <Execution id="7c5110ea-6530-40c3-8662-fc79c5d8932b" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="SearchWithNoMatch_ShowsEmptyState" />
+    </UnitTest>
+    <UnitTest name="TitleOverMaximum_IsRejected" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="b6b83364-9b8a-3de5-0483-288b8ad839d5">
+      <Execution id="66c89c43-58dd-42da-a38a-f3aa367af730" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="TitleOverMaximum_IsRejected" />
+    </UnitTest>
+    <UnitTest name="ValidLogin_ShowsBoardAndWelcome" storage="e:\github\selenium-csharp-ui-tests\tests\uitests\bin\debug\net9.0\uitests.dll" id="d3fdc43e-2ab0-fc99-950a-5e4d44c21ce6">
+      <Execution id="70df240e-b34f-42c6-a444-5d5b4c1f3251" />
+      <TestMethod codeBase="E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="UiTests.Tests.TaskBoardTests" name="ValidLogin_ShowsBoardAndWelcome" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f6c62d0b-228e-fba7-94c5-b2009c75285f" executionId="7c5110ea-6530-40c3-8662-fc79c5d8932b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26207043-fd01-129a-4921-fd806217e25a" executionId="d54ad23f-b50a-4989-9e3b-7776c7c51cf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6b83364-9b8a-3de5-0483-288b8ad839d5" executionId="66c89c43-58dd-42da-a38a-f3aa367af730" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="966ca7a2-27da-6e26-2c9f-59d6829d311a" executionId="3c56bd7d-a03d-4b9c-a547-d19b764eaa0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cde852e-88d2-f8ea-9404-7b9006df1d5d" executionId="95c006e5-844b-4b20-b8e2-f6fd6c398d0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="884e96cd-0918-9e6b-a456-02f25670afec" executionId="eecd250f-166c-424a-ad0e-ebf0ba6b5349" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54c91e5e-2e9f-2763-b20e-730cb2b88fd1" executionId="de18ac6c-f68a-4d48-b965-079c1a3e4cfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edaefc6a-b8ac-915d-2e10-b87d7051b921" executionId="d082f3c7-8587-45d9-8b0e-dc29fcf1e45c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3293233-e429-b5d5-2540-a6f41d337e62" executionId="d338f8fa-cc8c-425d-b18e-a2e6c7df1bb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="109e9d87-8cf2-b703-d242-2ac55118d9a6" executionId="18fae7a5-71df-450f-95e6-4bf68e1b79bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37d325e5-d2d3-a793-724a-40437ad13107" executionId="8da3308f-10ae-4c86-b08f-8f19b6549ab3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d116a7ff-bb3b-08ab-6d66-5362b4a552bb" executionId="cbbcdc8d-cd75-43ee-9edc-6245db9ddef0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e00112e-67fb-b6e7-9524-e33ee13416f4" executionId="6e21d96d-9a45-4e22-a0d1-bdf91a6d600f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8f5c590-d771-485c-6ace-7a2e7e3aa3d3" executionId="ef7ce440-9e31-4b45-8032-dc2d3a3c6495" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cb42121-ae62-6c1a-35e2-d0abe5d3e63c" executionId="217d2340-b0f1-400e-a652-a2d5edd8b216" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ea8930f-5dfb-a1d3-a4e9-91afb0a0243f" executionId="7d4cca12-d1b9-4c84-a3ec-11278898a2fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3fdc43e-2ab0-fc99-950a-5e4d44c21ce6" executionId="70df240e-b34f-42c6-a444-5d5b4c1f3251" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f353a6f-abd8-6c5c-b960-2ec733a47d01" executionId="31bd3985-bd70-4416-8a35-9a32b94507be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7c006c1-a737-a9c7-2077-66b876e396b1" executionId="be67ddf5-d482-4f79-b689-6c2e01d8c31c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c42ff834-77e0-7b6e-6329-f6a459d69166" executionId="6909328b-c432-4689-aa1e-53fa8db2c2d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ac5b1bf-f1d6-ef11-0191-bb46e47a548f" executionId="85ddb1e8-e207-4445-a63d-d36c088ca671" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c66890f-3fce-c6b2-66ef-c01008baa753" executionId="130ce0e5-e7a3-4b38-bd95-3e7619595a12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f102bd87-cb49-c547-b713-43d1ad01dcb5" executionId="355f18bf-207e-495f-be80-3ec613f917ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="23" executed="23" passed="23" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 6.3.0.0: Test execution started&#xD;
+Running all tests in E:\GitHub\selenium-csharp-ui-tests\tests\UiTests\bin\Debug\net9.0\UiTests.dll&#xD;
+   NUnit3TestExecutor discovered 23 of 23 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
